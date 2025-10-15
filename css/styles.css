@@ -7,6 +7,16 @@
 
 /* Global styles 
 ------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 body {
     background: white;
     font-family: "Roboto", sans-serif;
@@ -19,11 +29,19 @@ body {
     margin: 0 auto;
     /* centers it horizontally */
     padding: 50px;
+    overflow: hidden;
 }
 
 .contact-info a {
     padding: 10px;
     display: inline-block;
+}
+
+.profile-img {
+    width: 300px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
 }
 
 
@@ -36,13 +54,14 @@ body {
 h1 {
     font: "Roboto", sans-serif;
     color: #070F2B;
+    margin: 0;
 
 }
 
 h2 {
     font: 1.6em "Roboto", sans-serif;
     color: #1B1A55;
-    margin-top: 0px;
+    margin: 0;
 }
 
 h3 {

@@ -1,0 +1,53 @@
+/* Color Palette
+#070F2B - color 1
+#1B1A55 - color 2
+#535C91 - color 3
+#9290C3 - color 4
+*/
+
+/* Global styles 
+------------------------------------*/
+body {
+    background: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 100%;
+}
+
+
+
+
+/* Header & Footer 
+------------------------------------*/
+h1 {
+    font: "Roboto", sans-serif;
+    color: #070F2B;
+
+}
+
+h2 {
+    font: 1.6em "Roboto", sans-serif;
+    color: #1B1A55;
+}
+
+h3 {
+    font: "Roboto", sans-serif;
+    color: #535C91;
+}
+
+footer {
+    border-top: 1px solid gray;
+    text-align: center;
+    font-size: .8em;
+    line-height: 0.3em;
+    margin-top: 1em;
+}
+
+
+
+/* Work Experience
+------------------------------------*/
+
+
+
+/* Education
+------------------------------------*/

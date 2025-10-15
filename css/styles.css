@@ -11,7 +11,22 @@ body {
     background: white;
     font-family: "Roboto", sans-serif;
     font-size: 100%;
+
 }
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    /* centers it horizontally */
+    padding: 50px;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+}
+
+
 
 
 
@@ -27,6 +42,7 @@ h1 {
 h2 {
     font: 1.6em "Roboto", sans-serif;
     color: #1B1A55;
+    margin-top: 0px;
 }
 
 h3 {

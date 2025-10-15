@@ -24,6 +24,19 @@ body {
 
 }
 
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
 .content-wrap {
     max-width: 950px;
     margin: 0 auto;
@@ -39,9 +52,9 @@ body {
 
 .profile-img {
     width: 300px;
-    border-radius: 50%;
     float: left;
     margin-right: 30px;
+    border-radius: 50%;
 }
 
 
